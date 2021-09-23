@@ -78,5 +78,4 @@ mineContract.events.Deposit(function (error, event) {
     //   获得监听到的数据：
     console.log("参与地址:" + event.returnValues );
     console.log("参与金额:" + event.transactionHash);
-
 });
